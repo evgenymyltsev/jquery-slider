@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial';
+  font-size: 15px;
+  color: #fff;
+  background: #333;
+  line-height: 1.6em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#container {
+  width: 900px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+#slider {
+  width: 940px;
+  height: 350px;
+  position: relative;
+  float: left;
+  padding: 3px;
+  border: #666 solid 2px;
+  border-radius: 5px;
+}
+
+.slide img {
+  width: 940px;
+  height: 350px;
+}
+
+.slide {
+  position: absolute;
+}
+
+.slider-copy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding:20px;
+  background: #7f7f7f;
+  background: rgba(0,0,0,0.5);
+}
+
+span {
+  font-size: 50px;
+  font-weight: 400;
+  z-index: 999;
+  cursor: pointer;
+}
+
+span #prev #next {
+  float: left;
+  margin-top: 130px;
+  cursor: pointer;
+  position: relative;
+}
